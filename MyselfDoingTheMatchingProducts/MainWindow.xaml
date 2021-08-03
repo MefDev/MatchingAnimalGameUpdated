@@ -1,0 +1,43 @@
+﻿<Window x:Class="MyselfDoingTheMatchingProducts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyselfDoingTheMatchingProducts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid x:Name="mainGrid" MouseDown="TimeElapse_MouseDown">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock  TextWrapping="Wrap" Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Column="2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Column="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="1"  HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock  Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="AppearOrDispear_MouseDown"/>
+        <TextBlock x:Name="timeTextBlock" Grid.Row="4" TextWrapping="Wrap" Text="Time Elapse" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="4" FontSize="40" MouseDown="TimeElapse_MouseDown"/>
+
+
+    </Grid>
+</Window>
